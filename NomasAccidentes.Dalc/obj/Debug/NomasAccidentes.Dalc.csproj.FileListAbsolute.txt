@@ -1,0 +1,11 @@
+C:\Users\maty_\source\repos\NomasAccidentesLocal\NomasAccidentes.Dalc\bin\Debug\NomasAccidentes.Dalc.dll.config
+C:\Users\maty_\source\repos\NomasAccidentesLocal\NomasAccidentes.Dalc\bin\Debug\NomasAccidentes.Dalc.dll
+C:\Users\maty_\source\repos\NomasAccidentesLocal\NomasAccidentes.Dalc\bin\Debug\NomasAccidentes.Dalc.pdb
+C:\Users\maty_\source\repos\NomasAccidentesLocal\NomasAccidentes.Dalc\bin\Debug\EntityFramework.dll
+C:\Users\maty_\source\repos\NomasAccidentesLocal\NomasAccidentes.Dalc\bin\Debug\EntityFramework.xml
+C:\Users\maty_\source\repos\NomasAccidentesLocal\NomasAccidentes.Dalc\obj\Debug\NomasAccidentes.Dalc.csproj.AssemblyReference.cache
+C:\Users\maty_\source\repos\NomasAccidentesLocal\NomasAccidentes.Dalc\obj\Debug\NomasAccidentes.Dalc.csproj.CoreCompileInputs.cache
+C:\Users\maty_\source\repos\NomasAccidentesLocal\NomasAccidentes.Dalc\obj\Debug\NomasAccidentes.Dalc.csproj.CopyComplete
+C:\Users\maty_\source\repos\NomasAccidentesLocal\NomasAccidentes.Dalc\obj\Debug\NomasAccidentes.Dalc.dll
+C:\Users\maty_\source\repos\NomasAccidentesLocal\NomasAccidentes.Dalc\obj\Debug\NomasAccidentes.Dalc.pdb
+C:\Users\maty_\source\repos\NomasAccidentesLocal\NomasAccidentes.Dalc\bin\Debug\Oracle.ManagedDataAccess.dll

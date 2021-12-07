@@ -7,11 +7,15 @@
         mc:Ignorable="d"
         Title="Login" Height="450" Width="800" Background="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}" WindowStartupLocation="CenterScreen">
     <Grid>
-        <TextBox x:Name="txtusuario" HorizontalAlignment="Left" Height="23" Margin="291,110,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" />
-        <Button Content="Iniciar Sesion" HorizontalAlignment="Left" Margin="310,235,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
-        <Label Content="Usuario" HorizontalAlignment="Left" Margin="291,79,0,0" VerticalAlignment="Top"/>
-        <Label Content="Contraseña" HorizontalAlignment="Left" Margin="291,143,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.014,0.286"/>
-        <TextBox x:Name="txtcontrasena" HorizontalAlignment="Left" Height="23" Margin="291,185,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <Label Foreground="Black" FontSize="25" HorizontalAlignment="Center" >
+            <Bold>Login</Bold>
+        </Label>
+        <TextBox x:Name="txtusuario" HorizontalAlignment="Left" Height="23" Margin="346,109,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" />
+        <Button Content="Iniciar Sesion" HorizontalAlignment="Left" Margin="358,236,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Label Content="Usuario" HorizontalAlignment="Left" Margin="366,78,0,0" VerticalAlignment="Top"/>
+        <Label Content="Contraseña" HorizontalAlignment="Left" Margin="364,153,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.014,0.286"/>
+        <TextBox x:Name="txtcontrasena"  HorizontalAlignment="Left" Height="23" Margin="346,184,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" />
+
 
     </Grid>
 </Window>

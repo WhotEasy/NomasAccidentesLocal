@@ -14,6 +14,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using MessageBox =System.Windows.MessageBox;
 
 namespace NomasAccidentesLocal
 {
@@ -26,7 +27,10 @@ namespace NomasAccidentesLocal
         {
             InitializeComponent();
             Informe usr = new Informe();
-            dataRevision.ItemsSource = usr.ReadAll();
+            var listainfo = usr.ReadAll();
+            List<Informe> listadoinf = new List<Informe>();
+            listadoinf = listainfo;
+            dataRevision.ItemsSource = listadoinf;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -57,6 +61,22 @@ namespace NomasAccidentesLocal
             mn.ShowDialog();
         }
 
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            Informe info = (Informe)dataRevision.SelectedItem ;
+            string mensaje = string.Format("ID${0}",
+                info.Id_informe);
+            MessageBox.Show(mensaje);
 
+
+
+        }
+
+        private void Button_Click_5(object sender, RoutedEventArgs e)
+        {
+            Modal modal = new Modal();
+            modal.Owner = this;
+            modal.ShowDialog();
+        }
     }
 }

@@ -8,11 +8,13 @@
         Title="RevisionInforme" Height="450" Width="800" WindowStartupLocation="CenterScreen">
     <Grid>
         <Button Content="LogOut" HorizontalAlignment="Left" Margin="709,5,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_3"/>
-        <Button Content="Sincronizar" HorizontalAlignment="Left" Margin="632,303,0,0" VerticalAlignment="Top" Width="142" Height="108"/>
+        <Button Content="Sincronizar" HorizontalAlignment="Left" Margin="650,282,0,0" VerticalAlignment="Top" Width="142" Height="108"/>
         <Button Content="Revisión informes" HorizontalAlignment="Left" Margin="111,5,0,0" VerticalAlignment="Top" Width="107" Click="Button_Click_1"/>
         <Button Content="Registro de actividades" HorizontalAlignment="Left" Margin="238,5,0,0" VerticalAlignment="Top" Width="142" Click="Button_Click_2"/>
         <Button Content="Inicio" HorizontalAlignment="Left" Margin="10,5,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
-        <DataGrid  x:Name="dataRevision" HorizontalAlignment="Left" Height="301" Margin="10,88,0,0" VerticalAlignment="Top" Width="443"   />
+        <DataGrid  x:Name="dataRevision" HorizontalAlignment="Left" Height="302" Margin="10,88,0,0" VerticalAlignment="Top" Width="617"   />
+        <Button Content="Crear" HorizontalAlignment="Left" Margin="650,118,0,0" VerticalAlignment="Top" Width="103" Click="Button_Click_5"/>
+        <Button Content="Editar" HorizontalAlignment="Left" Margin="650,152,0,0" VerticalAlignment="Top" Width="103" Click="Button_Click_4"/>
 
     </Grid>
 </Window>
